@@ -91,7 +91,7 @@ In this assignment, you are going to realize object detection with the provided 
 
 ### 3.3 Get Data and Code
 
-The dataset is available [HERE](https://drive.google.com/file/d/1aJHCU-iAWJwqOizzYVhuHr6l_wPJWE_p/view?usp=sharing). The dataset is now composed of train and val parts and their corresponding annotations. Note that test images with fake annotations will be released one week before the assignment deadline. The dataset structure follows [COCO format](https://cocodataset.org/#format-data).
+The dataset is available [HERE](https://drive.google.com/file/d/1aJHCU-iAWJwqOizzYVhuHr6l_wPJWE_p/view?usp=sharing). The dataset is now composed of train and val parts and their corresponding annotations. Note that test images with fake annotations is released one week before the assignment deadline: [HERE](https://drive.google.com/file/d/19xLx67bd3a0aW93NYILdw5iqgANXDpSH/view?usp=sharing) (Please extract the zip file and put the files fowlling the structure below). The dataset structure follows [COCO format](https://cocodataset.org/#format-data).
 
 Download codes:
 
@@ -175,7 +175,7 @@ Please fill in three blank to complete the basic training pipline in file [train
 
 This task requires you to predict the outputs of the test set. We will release the test set for you to generate prediction results for submission **7 days before the deadline**.
 
-After downloading the test set, you should organize the files as the structure above and then run the evaluation command line to generate final json file. After generating final json file, you can use the script below to test the format of your results (Will be released with the test set). **We will not debug on format issues when do the final evaluation, which means you will lose full marks for the performance part if the format is not correct.**
+After downloading the test set ([released HERE](https://drive.google.com/file/d/19xLx67bd3a0aW93NYILdw5iqgANXDpSH/view?usp=sharing)), you should organize the files as the structure above and then run the evaluation command line to generate final json file. After generating final json file, you can use the script below to test the format of your results (Will be released with the test set). **We will not debug on format issues when do the final evaluation, which means you will lose full marks for the performance part if the format is not correct.**
 
 ```bash
 python test_submission.py --coco_path ./data
@@ -213,7 +213,7 @@ Your report should include three main sections: introduction, method, and experi
   
       > Due to the relative ease of the tasks in original code, we highly recommend you realize the qualitative and other analysis to enrich your report and get high report scores.
 
-2. All the completed codes.
+2. All the completed codes. This should be a folder (eg HKU-DASC7606-A1) containing all the original codes.
 
 3. Models, in the format of model checkpoint link (model_link.txt) due to the limitation on submission file size.
 
