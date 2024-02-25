@@ -105,7 +105,7 @@ After downloading and extracting the dataset, you should put all files following
 ```
 └── HKU-DASC7606-A1
     ├── data
-           ├── image                   # images
+           ├── images                  # images
                ├── train
                ├── val
                └── test                # (released before DDL) test images
